@@ -156,23 +156,58 @@ THz技术：
 深度学习：难点在于建立不同场景下深度神经网络的最优化设计
 强化学习：难点在于建立不同场景下最优化策略、行为和奖励机制
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
+file name: 09058611
+ref: Zhongqian Niu, Bo Zhang, Jiale Wang, et al. The Research on 220GHz Multicarrier High-Speed Communication System. 
+      China Communications 2020, March:131-139.
 
+title: The Research on 220GHz Multicarrier High-Speed Communication System
 
+主要讨论了一款220MHz的多载波高速通信系统。
+特点：通过将一系列微波波段的载波调制到220MHz，避免使用了高采样率的ADC
+      通过16QAM调制，12.8Gbps的信号传输速率(20米范围内，且不使用辅助设备)
+      基带算法解决了由不连贯结构引起的频率漂移，为长距离传输提供了可能
+      支持多信道同时8K视频传输
+      第一个在亚毫米波和THz频段工作的全固态电子多载波通信系统( all-solid-state electronics multicarrier communication system)
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
+file name: 09147140
+ref: Yejun He, Yaling Chen, Long Zhang, et al. An Overview of Terahertz Antennas. China Communications 2020, July:124-165.
 
+title: An Overview of Terahertz Antennas
 
+主要内容：简要介绍Thz天线的发展和基本设计思想->介绍天线的分类->介绍一些天线的最新研究进展、实施的困难、可行的办法
+      ->主要挑战和未来研究方向
 
+结构：天线设计基本思想->天线基本的几个类别->详细介绍5种天线类型->制作过程、技术的分析->研究的难点和未来的研究方向
 
+基本的THz天线类别：
+1、金属天线：代表：喇叭天线；20-30dBi的高增益
+                 行波角锥天线：开放性结构
+            特点：几何结构简单，易于制造；采用机械调整的方法，易出错。
+            
+2、介电天线：介电基质和天线散热器的结合
+            特点：处理简单、易于整合、成本低；但具有表面波特性，这是其最大的缺陷。
 
+3、新材料天线：e.g 碳纳米管的介电天线(2006)、新结构的碳纳米管的介电天线(2012)
+                 新材料天线可能会带来新的发展，但这主要依靠材料学的研究
 
+5种典型的THz天线：
+1、光电导天线：mainly used to produce THz radiation sources；研究重点：提高其转换效率
+2、喇叭天线：widely used at the low frequency band close to the microwave band
+3、透镜天线：can optimize the directivity of antennas due to their focusing characteristics，方向性好、增益高，容易构成天线阵
+4、微带线天线：small size and are widely used in mobile THz equipments。但其低方向性和低增益需要在今后的研究中加以改善
+5、片上天线：can be manufactured and assembled on a large scale with the latest CMOS technology
 
+处理技术：
+1、微加工太赫兹工艺技术：基于传统的工业技术
+2、新的太赫兹工艺技术，主要包括：electroforming, discharge, milling, thick photoresist
 
+THz天线主要面临的挑战：共振频率不足、缺乏合适的基础材料(传统材料带来的增益低，损耗高)
 
-
-
-
+未来的研究方向：小型化、高增益、高可靠性和低成本、高度集成化
 
 
 
