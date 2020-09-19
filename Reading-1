@@ -35,3 +35,32 @@ SWITCH TRAFFIC MODEL：最好的模型是 the ON/OFF model
 DPA调度算法：接受发送请求->消除输入端口的碰撞(一个端口在一个时隙中仅能接受一个数据包)->消除发送端口的碰撞
 结论：1、DPA较其他算法能满足更大规模的交换流量
       2、DPA叫其他算法在等同情况下有更低时延
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+file name: 08633313
+ref: Tianyu Wang, Shaowei Wang, Zhi-Hua Zhou. Machine Learning for 5G and Beyond From Model-Based to Data-Driven Mobile Wireless Networks. 
+      China Communications 2019, January:165-175.
+      
+title: Machine Learning for 5G and Beyond From Model-Based to Data-Driven Mobile Wireless Networks
+
+主要内容：在5G移动网络领域，传统的基于模型的理论不如新型的数据驱动型的理论效率高、易部署
+
+model-based 的缺陷：1、难以获得正确准确的模型
+                   2、获得的解决方案往往都是过于复杂难以接受的
+                   3、难以确定系统参数
+                   4、难以获得无损区块分解(lossless block decompotion)
+                   
+                   
+data-driven的优点\特点：1、所有的网络功能都是基于相同的数据功能建立的
+                       2、各网络层之间没有明显的区分，data-driven网络的功能可以执行不同层级的任务
+                       3、不需要正确的模型，原因在于问题的解决方案能够直接从移动网络产生的数据中得到
+                       4、对系统参数不敏感
+                       5、不需要做数据块/问题的分解
+
+使用 主动负载均衡 来测试data-driven模型
+1、传统的负载均衡技术一般需要消耗大量的时间和资源，甚至需要人为频繁进行参数配置
+2、主动负载均衡可以通过改变BS的覆盖范围，来分配每个BS的服务对象
+3、基本模型如下(以交通负载均衡为例)：每个接入点作为一个交通负载预测器(基于在线机器学习进行预测)，接入点的上级是一个全局的负载均衡器。
+                                  在每个时间段开始的时刻，接入点接受临近接入点的信息，并基于此做出下一个时刻的预测。全局负载均衡器
+                                  收集这些预测信息并作出最优化处理，并通知接入点修改它们的参数。
