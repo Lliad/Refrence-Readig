@@ -1,0 +1,37 @@
+file name: 09089185
+ref: Qi Wu, Yi Cao, Haiming Wang, et al. Machine-Learning-Assisted Optimization and Its
+Application to Antenna Designs: Opportunities and Challenges. China Communications, 2020, April:152-164.
+
+title: Machine-Learning-Assisted Optimization and Its
+      Application to Antenna Designs: Opportunities and Challenges
+      
+结构：survey->优化、敏感度分析的算法->未来研究的讨论
+模型：用传统方法建立初代模型->机器学习建立初代模型的替代模型->对替代模型进行优化->通过模拟判断是否符合设计要求
+     ->不符合则在线更新替代模型，并回到第三步
+
+ML算法讨论: ANN SVM GA
+MLAO( Machine-Learning-Assisted Optimization)算法:
+  1、多目标的MLAO
+  2、可变保真度的MLAO
+  3、并行优化
+  
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+file name: 09058607
+ref: Yingjiao Ma1, Jinglin Shi, Yiqing Zhou, et al. Design and Implementation of Dynamic High-Speed
+Switches in Super Base Station Architectures. China Communications, 2020, March:78-89.
+
+title: Design and Implementation of Dynamic High-Speed
+      Switches in Super Base Station Architectures
+      
+结构：分析实际通信的特点并提出一种适用于超基站的开关流量模型(switch traffic model)
+      ->基于模型提出DPA调度算法( data-priority-aware (DPA) scheduling algorithm)
+      ->在模拟平台/FPGA上实现->新算法在时延、时间复杂度上优于现有算法
+      
+主要用于基带单元和射频前端的通信
+
+动态高速交换机结构: 数据解包->输入队列->交换机的控制系统(包括Mapping Strategy、数据监控、控制决策)->输出队列->封装、发送
+SWITCH TRAFFIC MODEL：最好的模型是 the ON/OFF model
+DPA调度算法：接受发送请求->消除输入端口的碰撞(一个端口在一个时隙中仅能接受一个数据包)->消除发送端口的碰撞
+结论：1、DPA较其他算法能满足更大规模的交换流量
+      2、DPA叫其他算法在等同情况下有更低时延
