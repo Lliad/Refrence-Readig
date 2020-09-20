@@ -209,10 +209,18 @@ THz天线主要面临的挑战：共振频率不足、缺乏合适的基础材�
 
 未来的研究方向：小型化、高增益、高可靠性和低成本、高度集成化
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
+file name: 09122618
+ref:Jinkang Zhu, Ming Zhao, et al. Exploring the Road to 6G: ABC - Foundation for Intelligent Mobile Networks.
+China Communications 2020, June:51-67.
 
+title: Exploring the Road to 6G: ABC - Foundation for Intelligent Mobile Networks
 
+artificial intelligence(A), big data (B) and cloud computing (C) 
 
+主要内容：讨论ABC相关的技术以及之间的关系。通过WBD(wireless big data)以及其中的A C技术
+      讨论了一种新的无线AI方式(knowledge + data-driven deep learning (KD-DL) method)
 
 
 
